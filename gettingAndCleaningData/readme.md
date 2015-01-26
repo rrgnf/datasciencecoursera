@@ -1,23 +1,17 @@
 
----
-title: readme.md
-author: rrgnf
----
 This repository stores the course projet to getting and cleaning date.  (https://class.coursera.org/getdata-010/human_grading)
-
-##Coments
-#how script works
-#code book describing the variables
 
 ### Data
 
 The data used is available here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and a full description is available here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-### Script
+### how script works
+
 A R script (run_analysis) is available in this repository. This script consider that the data have been download and saved in the same diretory of the script. That means the data files are inside "UCI HAR Dataset" directory.
 
 what the Script do:
+
 1. load features names from 'features.txt', process it, and create the 'features2' variable.
 2. load actitivies from 'activity_labels.txt' and results the 'activities' variable
 3. create a function 'nomeAtividade' to convert Activity ID in activity name.
